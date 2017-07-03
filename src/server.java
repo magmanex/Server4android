@@ -7,7 +7,7 @@ import java.net.Socket;
  * Created by ashira on 26/5/2560.
  */
 public class server extends Thread {
-    public static final int SERVERPORT = 8080;
+    public static final int SERVERPORT = 10000;
     private boolean running = false;
     private PrintWriter mOut;
     private OnMessageReceived messageListener;
